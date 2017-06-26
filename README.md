@@ -4,7 +4,7 @@
 
 ## Team
 
-  - Corey Chau ----- I just made a change here hallo
+  - Corey Chau ---- I just made a change here hallo
   - Matt Reyas
   - Scott Yoon
   - Joseph Lei
