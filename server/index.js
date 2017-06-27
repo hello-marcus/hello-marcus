@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express()
 
 app.get('/', function (req, res) {
-  res.send('Hello from the Heroku Server!');
+  res.send('Hello from the Heroku Server2!');
 });
 
 app.listen(process.env.PORT, function () {
