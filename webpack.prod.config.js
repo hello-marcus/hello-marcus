@@ -28,13 +28,7 @@ module.exports = {
       'process.env': {
         'NODE_ENV': JSON.stringify('production')
       }
-    }),
-    new HtmlWebpackPlugin({
-      template: `${SRC_DIR}/template.ejs`
-    }),
-    new TransferWebpackPlugin([
-      { from: 'libs', to: 'libs' }
-    ], path.join(__dirname, '/react-client/src'))
+    })
   ],
 
   module: {
